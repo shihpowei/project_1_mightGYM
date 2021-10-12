@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+header{
+ display: flex;
+ width: 100%;
+ padding: 1.5rem 2rem 0;
+}
+
+.title_item1{
+    display: flex;
+   align-items: center;
+    margin-left: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+  width: 80px
+}
+
+nav{
+     background-color: #312f2f;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+nav ul li{
+    padding: 0.75rem 1rem;
+}
+
+nav ul li a{
+    color: #c4c4c4;
+    text-decoration: none;
+   padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+}
+
+nav ul li a:hover{
+    background-color: rgb(168, 236, 238);
+    color: black;
+}
+
+
+.contaniner{
+    display: flex;
+    width: 100%;
+     padding: 1rem;
+}
+
+section .left {
+    width: 65%;
+ padding: 0 5rem;
+}
+
+section .right{
+    width:35%;
+    
+}
+
+section.contaniner h5{
+    font-size: 2rem;
+    text-align: center;
+   padding-top: 3rem;
+}
+
+.googlemap{
+    margin: 1rem auto 0;
+    display: flex;
+}
